@@ -1,0 +1,15 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, hsl(171, 100%, 41%), hsl(141, 71%, 48%));
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-text {
+  cursor: pointer;
+}
